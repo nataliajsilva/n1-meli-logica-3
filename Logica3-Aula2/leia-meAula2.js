@@ -98,11 +98,11 @@ for (let i=0;i<dados.length;i++){
 const dadosOrganizados = []
 for (let i = 0; i < dados.length; i++) {
   linha = []
-  for (let j = 0; j < dados[i].length; j++)__
+  for (let j = 0; j < dados[i].length; j++)
     linha.push(dados[i][j].toLowerCase())
   }
   dadosOrganizados.push(linha)
-}___
+}
 console.log(dadosOrganizados)
 
 
