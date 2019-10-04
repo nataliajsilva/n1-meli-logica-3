@@ -4,12 +4,13 @@
 // que retorna randomicamente uma
 // das Strings "FIGHT", "BAG" ou "RUN".
 
-const pokemon = {};
-    nome = 'Bulbasaur'
-    nomeJapones = 'Fushigidane'
-    nJohto = '231'
-    ev = 'Ovo'
-    sabeVoar = false
+const pokemon = {
+    nome: 'Bulbasaur',
+    nomeJapones: 'Fushigidane',
+    nJohto: '231',
+    ev: 'Ovo',
+    sabeVoar: false
+}
 pokemon.action = function() {
     const frase = ['Lutar', 'Correr', 'Gritar']
     const rand = Math.floor(Math.random()* frase.length)  
