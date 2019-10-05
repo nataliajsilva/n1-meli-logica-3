@@ -116,7 +116,7 @@ console.log(dadosOrganizados)
 //   dadosOrganizados.push(linha)
 // }___
 // console.log(dadosOrganizados)
->>>>>>> 4e842b9714951902526ae3a40832f1079b0df3d0:ex2.js
+
 
 // 6 - Printe no console os números que são múltiplos de 3.
 //  - os que são multiplos de 3 e 5.

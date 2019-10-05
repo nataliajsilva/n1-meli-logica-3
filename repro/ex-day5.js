@@ -23,12 +23,25 @@ function nasceuEmSP() {
   })
   return isChecked
 }
+function Alunas(nome,dataDeNasc,SP,id){
+  this.nome = largura
+  this.dataDeNasc = comprimento
+  this.SP = SP
+  this.id = id
+}
 
 botaoEnviar.addEventListener("click", function(e) {
   e.preventDefault()
-  //estamos recevendo aqui os dados
-  console.log(nome.value, dataDeNasc.value, nasceuEmSP())
+  //estamos recebendo aqui os dados
+  criarAluna(nome.value, dataDeNasc.value, nasceuEmSP())
 })
+const alunas = []
+let id = 0
+function criarAluna (nome,dataDeNasc,SP){
+  alunas.push(new Alunas (nome,dataDeNasc,SP,++id))
+  console.log(alunas)
+}
+
 
 //  btnMostrar.addEventListener("click", funcao para mostrar alunas)
 
@@ -38,3 +51,4 @@ function calcularIdade(anoDeNasc, mesDeNasc, diaDeNasc) {
   const mesAtual = now.getMonth() + 1
   const hoje = now.getDate()
 }
+
